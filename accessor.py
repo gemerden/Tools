@@ -72,7 +72,7 @@ class accessor_meta(type):
         
 class Validated(object):
     
-    '''subclasses of Validated that can only have accessor managed attributes
+    '''subclasses of Validated can only have accessor managed attributes
         and all accessor managed attributes are type checked and can be validated'''
     
     __metaclass__ = accessor_meta
